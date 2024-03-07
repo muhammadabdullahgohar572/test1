@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Line from "../assets/img/hero1/Rectangle 11.png";
 import No1 from "../assets/img/Campus/istockphoto-1254127323-170667a.png";
@@ -10,23 +10,22 @@ import No5 from "../assets/img/courese/istockphoto-1226452601-170667a.png";
 import No6 from "../assets/img/courese/istockphoto-1396019181-170667a.png";
 import no4 from "../assets/img/Campus/istockphoto-1398009285-612x612 1.png";
 import no5 from "../assets/img/Campus/ic_twotone-mail.png";
-import React from 'react';
-  import { ToastContainer, toast } from 'react-toastify';
+import React from "react";
+import { ToastContainer, toast } from "react-toastify";
 
-  import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 const Ranking = () => {
-  const Home=()=>{
-    toast.success("Hi !",{
-position:"top-center"
-    })
-  }
+  const Home = () => {
+    toast.success("Hi !", {
+      position: "top-center",
+    });
+  };
 
-
-  const Homee=()=>{
-    toast.success("Fine",{
-position:"top-center"
-    })
-  }
+  const Homee = () => {
+    toast.success("Fine", {
+      position: "top-center",
+    });
+  };
   return (
     <>
       <div className="mt-[10%] text-center">
@@ -46,7 +45,10 @@ position:"top-center"
             Stanford University
           </h1>
           <div className="flex">
-            <span onClick={Homee} className="text-yellow-300 cursor-pointer  text-lg font-semibold ">
+            <span
+              onClick={Homee}
+              className="text-yellow-300 cursor-pointer  text-lg font-semibold "
+            >
               Get Started
             </span>
             <Image
@@ -63,7 +65,10 @@ position:"top-center"
             Stallion University
           </h1>
           <div className="flex">
-            <span onClick={Homee} className="text-yellow-300  cursor-pointer text-lg font-semibold ">
+            <span
+              onClick={Homee}
+              className="text-yellow-300  cursor-pointer text-lg font-semibold "
+            >
               Get Started
             </span>
             <Image
@@ -80,7 +85,10 @@ position:"top-center"
             Covenant University
           </h1>
           <div className="flex">
-            <span onClick={Homee} className="text-yellow-300 cursor-pointer  text-lg font-semibold ">
+            <span
+              onClick={Homee}
+              className="text-yellow-300 cursor-pointer  text-lg font-semibold "
+            >
               Get Started
             </span>
             <Image
@@ -93,7 +101,10 @@ position:"top-center"
       </div>
 
       <div className="mt-[10%] text-center ">
-        <button onClick={Home} className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl">
+        <button
+          onClick={Home}
+          className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl"
+        >
           See Alll
         </button>
         <div className="mt-[5%] text-center">
@@ -106,14 +117,6 @@ position:"top-center"
         </div>
       </div>
 
-
-
-
-
-
-
-
-
       <div className="mt-[10%] grid cursor-pointer  sm:flex mx-[10%] sm:mx-[5%]">
         <div className="">
           <Image src={No4} alt="No1" className="cursor-pointer " />
@@ -121,7 +124,10 @@ position:"top-center"
             User experience design
           </h1>
           <div className="flex">
-            <span onClick={Homee} className="text-yellow-300 cursor-pointer  text-lg font-semibold ">
+            <span
+              onClick={Homee}
+              className="text-yellow-300 cursor-pointer  text-lg font-semibold "
+            >
               SEE COURSE GUIDE
             </span>
             <Image
@@ -138,7 +144,10 @@ position:"top-center"
             Computer science
           </h1>
           <div className="flex">
-            <span onClick={Homee} className="text-yellow-300  cursor-pointer text-lg font-semibold ">
+            <span
+              onClick={Homee}
+              className="text-yellow-300  cursor-pointer text-lg font-semibold "
+            >
               SEE COURSE GUIDE
             </span>
             <Image
@@ -149,12 +158,6 @@ position:"top-center"
           </div>
         </div>
 
-
-
-
-
-
-
         <div className="sm:ml-[5%]  mt-[10%] sm:mt-0">
           <Image src={No6} alt="No1" className="cursor-pointer " />
           <h1 className="text-xl font-semibold cursor-pointer ">
@@ -162,7 +165,10 @@ position:"top-center"
             Business management
           </h1>
           <div className="flex">
-            <span onClick={Homee} className="text-yellow-300 cursor-pointer  text-lg font-semibold ">
+            <span
+              onClick={Homee}
+              className="text-yellow-300 cursor-pointer  text-lg font-semibold "
+            >
               SEE COURSE GUIDE
             </span>
             <Image
@@ -174,19 +180,11 @@ position:"top-center"
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
       <div className="mt-[10%] text-center ">
-        <button onClick={Home} className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl">
+        <button
+          onClick={Home}
+          className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl"
+        >
           See All
         </button>
       </div>
@@ -207,7 +205,10 @@ position:"top-center"
 
           <div className="flex mt-[5%]">
             <div>
-              <button onClick={Home} className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl">
+              <button
+                onClick={Home}
+                className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl"
+              >
                 See All
               </button>
             </div>
@@ -220,7 +221,7 @@ position:"top-center"
           </div>
         </div>
       </div>
-<ToastContainer/>
+      <ToastContainer />
     </>
   );
 };
